@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         backgroundColor: Colors.black,
         appBar: AppBar(
-          backgroundColor: Colors.red[800],
+          backgroundColor: Colors.red[600],
           title: const Text('Staff Portal'),
         ),
         body: ListView(
