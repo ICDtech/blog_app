@@ -8,22 +8,28 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Staff Portal',
       home: Scaffold(
+        backgroundColor: Colors.black,
         appBar: AppBar(
+          backgroundColor: Colors.red[900],
           title: const Text('Staff Portal'),
         ),
         body: ListView(
-          children: const [
-            ListTile(
-              title: Text('Training'),
-              subtitle: Text('Placeholder for training video'),
+          padding: const EdgeInsets.all(8),
+          children: <Widget> [
+            Container(
+              height: 50,
+                color: Colors.amber[900],
+              child: const Center(child: Text('Training'))
             ),
-            ListTile(
-              title: Text('Attendance'),
-              subtitle: Text('Placeholder for attendance data'),
+            Container(
+              height: 50,
+              color: Colors.amber[700],
+                child: const Center(child: Text('Attendance'))
             ),
-            ListTile(
-              title: Text('Links'),
-              subtitle: Text('Placeholder for links'),
+            Container(
+              height: 50,
+              color: Colors.amber[300],
+                child: const Center(child: Text('Links'))
             ),
           ],
         ),
