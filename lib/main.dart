@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         backgroundColor: Colors.black,
         appBar: AppBar(
-          backgroundColor: Colors.red[600],
+          backgroundColor: Colors.red[900],
           title: const Text('Staff Portal'),
         ),
         body: ListView(
@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
           children: <Widget> [
             Container(
               height: 50,
-                color: Colors.amber[700],
+                color: Colors.amber[900],
               child: const Center(child: Text('Training'))
             ),
             Container(
@@ -31,6 +31,11 @@ class MyApp extends StatelessWidget {
               height: 50,
               color: Colors.amber[300],
                 child: const Center(child: Text('Links'))
+            ),
+            Container(
+                height: 50,
+                color: Colors.amber[200],
+                child: const Center(child: Text('Google Docs'))
             ),
           ],
         ),
