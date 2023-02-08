@@ -38,6 +38,11 @@ class MyApp extends StatelessWidget {
                 color: Colors.amber[200],
                 child: const Center(child: Text('Google Docs'))
             ),
+            Container(
+                height: 50,
+                color: Colors.amber[100],
+                child: const Center(child: Text('Test'))
+            ),
           ],
         ),
       ),
